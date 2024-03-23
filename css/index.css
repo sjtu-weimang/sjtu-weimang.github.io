@@ -1,0 +1,47 @@
+
+.container .navList{
+    width:1250px;
+    margin:0 auto;
+    background-color: #178e82;  
+
+}
+.container .navList li{
+    line-height: 90px;
+    float: left;
+    padding:0 20px;
+}
+.container .navList:hover .dropMenu .Menu1{
+    visibility: inherit;
+}
+.container .navList .dropMenu{
+    position: relative;
+    width:1250px;
+    height:300px;
+    margin:auto;
+    background-color: blue;
+    display: flex;
+}
+.container .navList .dropMenu .Menu1{
+    visibility: hidden;
+    width: 180px;
+    background-color: #8ce0d8;
+    
+} 
+.container .navList .dropMenu li{
+    padding: 0 20px;
+    line-height: 50px;
+}
+.container .navList .dropMenu .Menu2{
+    float:left;
+    width: 200px;
+    background-color: #8ce0d8;
+    line-height: 50px;
+    margin-left: -70px;
+} 
+.container .navList .dropMenu .Menu3{
+    float:left;
+    width: 200px;
+    background-color: #8ce0d8;
+    line-height: 50px;
+    margin-left: -70px;
+} 
