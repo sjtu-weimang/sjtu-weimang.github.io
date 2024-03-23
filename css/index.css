@@ -2,46 +2,110 @@
 .container .navList{
     width:1250px;
     margin:0 auto;
-    background-color: #178e82;  
+    background-color: #178e82;
+    display: flex;  
+    overflow:visible;
+    font-size: 26px;
 
 }
 .container .navList li{
-    line-height: 90px;
     float: left;
-    padding:0 20px;
+    width:180px;
+    height:60px;
+    padding-top:30px;
+
+    margin:10px 20px;
+    text-align:center;
+    background-color:#178e82;
+    overflow:visible;
 }
-.container .navList:hover .dropMenu .Menu1{
-    visibility: inherit;
+.container .navList .math ul{
+        position:relative;
+        margin:20px -15px;
+        display:none;
 }
-.container .navList .dropMenu{
-    position: relative;
+.container .navList .math:hover ul{
+    display:block;
+}
+.container .navList .math li{
+    padding-top:10px;
+    margin:auto 20px;
+    height:50px;
+    width:180px;
+    background-color:antiquewhite;
+    text-align:center;
+}
+.container .navList .computer ul{
+    position:relative;
+    margin:20px -15px;
+    display:none;
+}
+.container .navList .computer:hover ul{
+display:block;
+}
+.container .navList .computer li{
+padding-top:10px;
+margin:auto 20px;
+height:50px;
+width:200px;
+background-color:antiquewhite;
+text-align:center;
+}
+.container .navList .control ul{
+    position:relative;
+    margin:20px -15px;
+    display:none;
+}
+.container .navList .control:hover ul{
+display:block;
+}
+.container .navList .control li{
+padding-top:10px;
+margin:auto 20px;
+height:50px;
+width:180px;
+background-color:antiquewhite;
+text-align:center;
+}
+.content{
     width:1250px;
-    height:300px;
-    margin:auto;
-    background-color: blue;
-    display: flex;
+    margin:0 auto;
+    background-color: #178e82;
+    display: flex;  
+    overflow:visible;
+    text-align: center;
+    height:1000px;
 }
-.container .navList .dropMenu .Menu1{
-    visibility: hidden;
-    width: 180px;
-    background-color: #8ce0d8;
+.content .mainText{
+    width:1000px;
+    margin:0 auto;
+    background-color: #c3b15a;
+    font-size: 20px;
+    line-height: 40px;
+}
+.left{
+    position: relative;
+    top:-1220px;
+    right:-10px;
+    width:300px;
+    height:1020px;
+    background-color: #17418e;
+    z-index: -1;
+    padding-top: 200px;
+}
+.left .content{
+    margin-left: 30px;
+    height:1020px;
+    width: 270px;
+    background-color: #178e82;
+    font-size: 26px;
+    color : #f5d254;
+    display: inline-block;
     
-} 
-.container .navList .dropMenu li{
-    padding: 0 20px;
-    line-height: 50px;
 }
-.container .navList .dropMenu .Menu2{
-    float:left;
-    width: 200px;
-    background-color: #8ce0d8;
-    line-height: 50px;
-    margin-left: -70px;
-} 
-.container .navList .dropMenu .Menu3{
-    float:left;
-    width: 200px;
-    background-color: #8ce0d8;
-    line-height: 50px;
-    margin-left: -70px;
-} 
+.left .content p{
+    width: 270px;
+    height: 60px;
+    background-color: sienna;
+}
+
