@@ -1,0 +1,116 @@
+{
+    "math": {
+        "label": "数学基础",
+        "key": "math",
+        "children": [
+            {
+                "label": "一元微积分",
+                "key": "caculus1"
+            },
+            {
+                "label": "多元微积分",
+                "key": "caculus2"
+            },
+            {
+                "label": "线性代数",
+                "key": "lineAlgebra"
+            },
+            {
+                "label": "概率统计",
+                "key": "probability"
+            }
+        ]
+    },
+    "electric": {
+        "label": "电子/通信/控制",
+        "key": "electric",
+        "children": [
+            {
+                "type": "group",
+                "label": "电子",
+                "children": [
+                    {
+                        "label": "基础电路理论",
+                        "key": "setting:1"
+                    },
+                    {
+                        "label": "数字电子技术",
+                        "key": "setting:2"
+                    },
+                    {
+                        "label": "模拟电子技术",
+                        "key": "setting:3"
+                    }
+                ]
+            },
+            {
+                "type": "group",
+                "label": "信号",
+                "children": [
+                    {
+                        "label": "信号与系统",
+                        "key": "setting:4"
+                    },
+                    {
+                        "label": "数字信号处理",
+                        "key": "setting:5"
+                    }
+                ]
+            }
+        ]
+    },
+    "computer": {
+        "label": "计算机基础",
+        "key": "computer",
+        "children": [
+            {
+                "label": "数据结构",
+                "key": "dataStructure"
+            },
+            {
+                "label": "计算机组成",
+                "key": "compose"
+            },
+            {
+                "label": "计算机网络",
+                "key": "network"
+            },
+            {
+                "label": "操作系统",
+                "key": "os"
+            }
+        ]
+    },
+    "program": {
+        "label": "编程语言",
+        "key": "program",
+        "children": [
+            {
+                "label": "C/C++",
+                "key": "c"
+            },
+            {
+                "label": "JAVA",
+                "key": "java"
+            },
+            {
+                "label": "JavaScript",
+                "key": "javascript"
+            },
+            {
+                "label": "Python",
+                "key": "python"
+            }
+        ]
+    },
+    "ai": {
+        "label": "机器学习",
+        "key": "ai",
+        "children": [
+            {
+                "label": "",
+                "key": ""
+            }
+        ]
+    }
+}
